@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@media (min-width: 0px) and (max-width: 539px) { 
+ 	.header-image { 
+ 		background-image: url("https://wac-cdn.atlassian.com/dam/jcr:4ad14d09-926b-431d-92c4-339a548b53b3/Summit2019-WACTakeover-MobileHero.png?cdnVersion=ld") ; 
+ 		background-position: bottom left ; 
+ 		background-repeat: no-repeat ; 
+ 		background-size: 100% 75% ; 
+ 	} 
+ } 
+ @media (min-width: 540px) and (max-width: 767px) { 
+ 	.header-image 
+ 	{ background-image: url("https://wac-cdn.atlassian.com/dam/jcr:4ad14d09-926b-431d-92c4-339a548b53b3/Summit2019-WACTakeover-MobileHero.png?cdnVersion=ld") ; 
+ 	background-position: bottom left ; 
+ 	background-repeat: no-repeat ; 
+ 	background-size: 100% 75% ; 
+ 	} 
+} 
+ @media (min-width: 768px) and (max-width: 1023px) { 
+ 	.header-image { 
+ 		background-image: url("https://wac-cdn.atlassian.com/dam/jcr:4f6bda21-a0c7-49ae-abbe-464dbe2432c1/Summit2019-WACTakeover.svg?cdnVersion=ld") ; 
+ 		background-position: bottom center ; 
+ 		background-repeat: no-repeat ; 
+ 		background-size: cover ; 
+ 		}
+ 	} 
+ @media (min-width: 1024px) and (max-width: 1439px) {
+ 	.header-image{ 
+ 		background-image: url("https://wac-cdn.atlassian.com/dam/jcr:4f6bda21-a0c7-49ae-abbe-464dbe2432c1/Summit2019-WACTakeover.svg?cdnVersion=ld") ; 
+ 		background-position: bottom center ; 
+ 		background-repeat: no-repeat ; 
+ 		background-size: cover ; } } 
+ @media (min-width: 1440px) { 
+ 		.header-image { 
+ 			background-image: url("https://wac-cdn.atlassian.com/dam/jcr:4f6bda21-a0c7-49ae-abbe-464dbe2432c1/Summit2019-WACTakeover.svg?cdnVersion=ld") ; 
+ 		background-position: bottom center ; 
+ 		background-repeat: no-repeat ; background-size: cover ; } } 

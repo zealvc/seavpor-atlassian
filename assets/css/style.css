@@ -375,6 +375,103 @@ h1.heading {
 	padding-top:8px;
 	padding-bottom: 64px;
 }
+.body-nine a {
+	padding: 16px;
+}
+
+/*Body Ten*/
+.body-ten {
+	padding: 16px 0px;
+}
+.body-ten-padding {
+	padding: 16px;
+}
+.body-ten-card {
+	padding: 40px;
+	background-color: #F4F5F7;
+}
+.body-ten-card-left, .body-ten-card-right {
+	padding: 16px;
+}
+.body-ten-heading {
+	margin-bottom: 14px;
+}
+.body-ten-card-left img {
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+
+/*Body Eleven*/
+.body-eleven {
+	padding: 32px 16px;
+}
+.body-eleven-heading {
+	margin-bottom: 14px;
+	font-size: 25px;
+}
+
+
+/*Body Twelve*/
+.body-twelve-components {
+	padding: 16px;
+}
+.body-twelve-left {
+}
+.body-twelve-right {
+	margin-left: 16px;
+	padding-left: 40px;
+}
+.body-twelve-heading {
+	margin-bottom: 14px;
+}
+.body-twelve-p {
+	margin-bottom: 20px;
+}
+
+/*Footer*/
+.footer {
+	background-color: #F4F5F7;
+	padding-top: 16px;
+}
+.top-footer-img {
+	padding: 16px;
+}
+.top-footer-component {
+	padding: 16px;
+}
+.top-footer-heading{
+	margin-bottom: 24px;
+}
+.top-footer-link {
+	margin-bottom: 8px;
+    font-size: .875rem;
+    line-height: 1.125;
+}
+.top-footer-link a {
+	color: #42526E; 
+}
+.top-footer-link-footer {
+	margin-top: 12px;
+	font-size: .875rem;
+}
+
+
+
+.end-footer {
+	padding: 16px;
+}
+.float-left {
+	margin-bottom: 8px;
+    font-size: .875rem;
+    line-height: 1.125;
+}
+.float-left a {
+	color: #42526E; 
+}
+
+
 
 
 

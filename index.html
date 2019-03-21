@@ -13,39 +13,55 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/desktop-style.css">
 
 	<link rel="icon" type="image/png" href="https://wac-cdn.atlassian.com/assets/img/favicons/atlassian/favicon.png" sizes="32x32" /> 
-
-
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
 </head>
 <body>
 	<!-- Header -->
 	<div class="header">
 		<div class="nav-bar">
+			<div class="nav-logo">
+				<img src="https://wac-cdn.atlassian.com/dam/jcr:616e6748-ad8c-48d9-ae93-e49019ed5259/Atlassian-horizontal-blue-rgb.svg?cdnVersion=ld" alt="Atlassian logo">
+			</div>
+
+			<div class="nav-bar-left">
+				<a class="active" href="#index">Products <i class="fas fa-caret-down"></i></a>
+          		<a href="#index">For teams <i class="fas fa-caret-down"></i></a>
+          		<a href="#index">Support <i class="fas fa-caret-down"></i></a>
+			</div>
 			
+          	<div class="nav-bar-right">
+          		<div class="search-btn">
+          			<a class="fas fa-search" href="#index"></a>
+          		</div>
+          		<div class="hamburger-dropdown">
+                    <a class="fas fa-bars" href="#index"></a>
+                </div>
+            	<a href="#index">Try free</a>
+            	<a href="#index">Buy now</a>
+            	<a href="#index">Join your team</a>
+            	<a href="#index">Login</a>
+          	</div>
 		</div>
 		<div class="page-heading">
-			<div class="header-image">
-				<img src="https://wac-cdn.atlassian.com/dam/jcr:4f6bda21-a0c7-49ae-abbe-464dbe2432c1/Summit2019-WACTakeover.svg?cdnVersion=ld"	 alt="Atlassian logo" />
-			</div>
+			<!-- <img class="header-image" src="assets/img/Summit2019-WACTakeover-MobileHero-xs.png" alt="Atlassian logo" /> -->
 			<div class="heading-contents">
-				<h1 class="heading">
+				<h1 class="heading center">
 					Summit 2019 is heading to Las Vegas
 				</h1>
-				<p>
+				<p class="center">
 					Extend your professional network, sharpen your skills, and learn new ways to work at our annual user conference. Join us on April 9-11.
 				</p>
-				<a class="heading-button">Register now</a>
+				<a class="heading-btn">Register now</a>
 			</div>
-		</div>
-
-		
+		</div>	
 	</div>
 
 	<!-- Body Contents -->
 	<div class="body">
 		<div class="body-one">
 			<div class="body-one-left">
-				<img src="">
+				<img src="https://wac-cdn.atlassian.com/dam/jcr:3ac53ac2-d859-41b9-99d2-33b75c9a805d/introducing-roadmaps.svg?cdnVersion=lc">
 			</div>
 			<div class="body-one-right">
 				<h3 class="body-one-right-heading">
@@ -54,21 +70,21 @@
 				<p class="body-one-right-p">
 					Roadmaps, new boards, and easier configuration are just the beginning.
 				</p>
-				<a href="">Take a look</a>
+				<a href="" class="body-one-btn">Take a look</a>
 			</div>
 		</div>
 
 		<div class="body-two">
-			<h2 class="body-two-heading">
+			<h2 class="body-two-heading center">
 				Tools for teams, from startup to enterprise
 			</h2>
-			<p class="body-two-p">
+			<p class="body-two-p center">
 				Atlassian provides the tools to help every team unleash their full potential.
 			</p>
 		</div>
 
 		<div class="line-break">
-			
+			<div class="line-breaks"></div>
 		</div>
 
 		<div class="body-three">
@@ -77,12 +93,12 @@
 					PLAN, TRACK, & SUPPORT
 				</h3>
 				<div class="body-three-component">
-					<img src="https://wac-cdn.atlassian.com/dam/jcr:5a7ca60f-cac3-4d01-95db-47caa5e58296/Jira%20Service%20Desk@2x-blue.png?cdnVersion=ld" alt="JIRA Service Desk Logo" class="component__image" style="height:23px;">
+					<img src="https://wac-cdn.atlassian.com/dam/jcr:5a7ca60f-cac3-4d01-95db-47caa5e58296/Jira%20Service%20Desk@2x-blue.png?cdnVersion=ld" alt="JIRA Service Desk Logo" class="body-three-img" style="height:23px;">
 					<p class="body-three-p">
 						Plan, track, and release world-class software with the #1 software development tool used by agile teams.
 					</p>
 					<a href="">
-						Learn more <span class="i-icon"></span>
+						Learn more <i class="fas fa-arrow-right"></i>
 					</a>
 				</div>
 				<div class="body-three-component">
@@ -91,7 +107,7 @@
 						Give your customers an easy way to ask for help and your agents a fast way to resolve incidents.
 					</p>
 					<a href="">
-						Learn more <span class="i-icon"></span>
+						Learn more <i class="fas fa-arrow-right"></i>
 					</a>
 				</div>
 				<div class="body-three-component">
@@ -100,7 +116,7 @@
 						Modern incident management with one place to respond, resolve, and learn from every incident.
 					</p>
 					<a href="">
-						Learn more <span class="i-icon"></span>
+						Learn more <i class="fas fa-arrow-right"></i>
 					</a>
 				</div>
 				<div class="body-three-component">
@@ -109,7 +125,7 @@
 						Incidents happen. Keep your users informed and ditch the flood of support emails during downtime.
 					</p>
 					<a href="">
-						Learn more <span class="i-icon"></span>
+						Learn more <i class="fas fa-arrow-right"></i>
 					</a>
 				</div>
 				<div class="body-three-component">
@@ -118,7 +134,7 @@
 						Notify the right people at the right time with powerful incident alerting and on-call schedules.
 					</p>
 					<a href="">
-						Learn more <span class="i-icon"></span>
+						Learn more <i class="fas fa-arrow-right"></i>
 					</a>
 				</div>
 			</div>
@@ -132,7 +148,7 @@
 						Collaborate on code and manage your Git repositories to build and ship software, as a team.
 					</p>
 					<a href="">
-						Learn more <span class="i-icon"></span>
+						Learn more <i class="fas fa-arrow-right"></i>
 					</a>
 				</div>
 				<div class="body-three-component">
@@ -141,7 +157,7 @@
 						Harness the full power of Git and Mercurial in a beautifully simple application.
 					</p>
 					<a href="">
-						Learn more <span class="i-icon"></span>
+						Learn more <i class="fas fa-arrow-right"></i>
 					</a>
 				</div>
 				<div class="body-three-component">
@@ -150,7 +166,7 @@
 						Continuous integration, deployment, and release management.
 					</p>
 					<a href="">
-						Learn more <span class="i-icon"></span>
+						Learn more <i class="fas fa-arrow-right"></i>
 					</a>
 				</div>
 			</div>
@@ -164,7 +180,7 @@
 						Spend more time getting things done. Organize your work, create documents, and discuss everything in one place.
 					</p>
 					<a href="">
-						Learn more <span class="i-icon"></span>
+						Learn more <i class="fas fa-arrow-right"></i>
 					</a>
 				</div>
 				<div class="body-three-component">
@@ -173,7 +189,7 @@
 						Collaborate and get more done. Trello boards enable your team to organize projects in a fun, flexible, and visual way.
 					</p>
 					<a href="">
-						Learn more <span class="i-icon"></span>
+						Learn more <i class="fas fa-arrow-right"></i>
 					</a>
 				</div>
 			</div>
@@ -183,25 +199,27 @@
 		</div>
 
 		<div class="body-four">
-			<a class="and-more-btn">and more...</a>
+			<a class="and-more-btn"><b>and more...</b></a>
 			<p class="body-four-p">
-				Find other products, apps, solutions, and services to keep your team moving forward. <a href="">See all of our products</a>
+				Find other products, apps, solutions, and services to keep your team moving forward. 
+				<br>
+				<a href="">See all of our products</a>
 			</p>
 		</div>
 
 		<div class="body-five">
-			<h3 class="body-five-heading">
+			<h3 class="body-five-heading center">
 				Get started with our products, for free
 			</h3>
-			<p class="body-five-p">
+			<p class="body-five-p center">
 				Atlassian products are free to try, easy to set up, and work seamlessly together.
 			</p>
-			<a href="">Get started for free</a>
+			<a href="" ><p class="center"><b>Get started for free</b></p></a>
 		</div>
 
 		<div class="body-six">
 			<div class="body-six-left">
-				<img src="">
+				<img src="https://wac-cdn.atlassian.com/dam/jcr:15e1a99e-c74e-4617-b62b-f1f525e45b53/playsillustrationclean510x450-05.png?cdnVersion=le">
 			</div>
 			<div class="body-six-right">
 				<h3 class="body-six-heading">
@@ -211,65 +229,69 @@
 					This ain't your CEO's ivory-tower management book. It's by teams, for teams. You'll find step-by-step guides for tracking your team's health, and plays that build your Get $#!τ Done™ muscle.
 				</p>
 				<a href="">
-					Learn more <span class="i-icon"></span>
+					Learn more <i class="fas fa-arrow-right"></i>
 				</a>
 			</div>
 		</div>
 
-		<div class="line-break">		
+		<div class="line-break-two">	
+			<div class="line-breaks-two"></div>	
 		</div>
 
 		<div class="body-seven">
-			<h2 class="body-seven-heading">
-				Powering innovation at 125,000+ companies worldwidePowering innovation at 125,000+ companies worldwide
+			<h2 class="body-seven-heading center">
+				Powering innovation at 125,000+ companies worldwide
 			</h2>
-			<div class="image-components">
-				<img src="">
-				<img src="">
-				<img src="">
-				<img src="">
-				<img src="">
-				<img src="">
-				<img src="">
+			<div class="image-component">
+				<img class="image-seven" src="https://wac-cdn.atlassian.com/dam/jcr:543689df-87a0-4c80-b753-3ad484e380c2/customer-logos-stacked.png?cdnVersion=le 554w">
+
 			</div>
 		</div>
 
 		<div class="body-eight">
-			<div class="body-eight-component-one">
-				<img src="">
-				<img src="">
-				<p class="body-eight-p">
-					How better resolution times and customer support helps The Telegraph reach 25M users a month.
-				</p>
-				<a href="">
-					Read their story <span class="i-icon"></span>
-				</a>
+			<div class="body-eight-component">
+				<img class="body-eight-img1" src="https://wac-cdn.atlassian.com/dam/jcr:a65f22b0-8cd0-4079-a4b0-2cf87db32da5/Telegraph.jpg?cdnVersion=le">
+				<div class="body-eight-component-bottom">
+					<img class="body-eight-img2" src="https://wac-cdn.atlassian.com/dam/jcr:d1587298-f751-488d-bcf0-ec81b30ee936/TheTelegraph_2x.png?cdnVersion=le">
+					<p class="body-eight-p">
+						How better resolution times and customer support helps The Telegraph reach 25M users a month.
+					</p>
+					<a href="">
+						Read their story <i class="fas fa-arrow-right"></i>
+					</a>
+				</div>
+				
 			</div>
-			<div class="body-eight-component-two">
-				<img src="">
-				<img src="">
-				<p class="body-eight-p">
-					This 200-year old bank is still innovating and changing the way their 50,000 employees think and work.
-				</p>
-				<a href="">
-					<span class="i-icon"></span> Watch the video
-				</a>
+			<div class="body-eight-component">
+				<img class="body-eight-img1" src="https://wac-cdn.atlassian.com/dam/jcr:6d9dff44-2ca5-4310-b2f0-a7a88e67fe95/Customers-ANZ.jpg?cdnVersion=le">
+				<div class="body-eight-component-bottom">
+					<img class="body-eight-img2" src="https://wac-cdn.atlassian.com/dam/jcr:9ef4193b-0ef1-444f-8fbe-a37471ef4791/anz_x2.png?cdnVersion=le" style="width: 121px; height: 38px">
+					<p class="body-eight-p">
+						This 200-year old bank is still innovating and changing the way their 50,000 employees think and work.
+					</p>
+					<a href="">
+						<i class="fas fa-play-circle"></i> Watch the video
+					</a>
+				</div>
+				
 			</div>
-			<div class="body-eight-component-three">
-				<img src="">
-				<img src="">
-				<p class="body-eight-p">
-					Staff members, doctors, and researchers found a better way to track projects and collaborate on a cure for cancer.
-				</p>
-				<a href="">
-					Read their story <span class="i-icon"></span>
-				</a>
+			<div class="body-eight-component">
+				<img class="body-eight-img1" src="https://wac-cdn.atlassian.com/dam/jcr:fd3d464e-6c2b-4208-9d53-f8d858a3ab93/Customers-CancerResearch.jpg?cdnVersion=le">
+				<div class="body-eight-component-bottom">
+					<img class="body-eight-img2" src="https://wac-cdn.atlassian.com/dam/jcr:0b805a47-37f3-4320-9520-2683ec9419c1/CancerResearch_2x.png?cdnVersion=le" style="width: 152px; height: 59px">
+					<p class="body-eight-p">
+						Staff members, doctors, and researchers found a better way to track projects and collaborate on a cure for cancer.
+					</p>
+					<a href="">
+						Read their story <i class="fas fa-arrow-right"></i>
+					</a>
+				</div>
 			</div>
 		</div>
 
 		<div class="body-nine">
 			<a href="">
-				Learn more about our customers <span class="i-icon"></span>
+				Learn more about our customers <i class="fas fa-arrow-right"></i>
 			</a>
 		</div>
 
@@ -280,7 +302,7 @@
 				</div>
 				<div class="body-ten-card-right">
 					<h4 class="body-ten-heading">
-						Atlassian Enterprise <span class="i-icon"></span>
+						Atlassian Enterprise <i class="fas fa-arrow-right"></i>
 					</h4>
 					<p class="body-ten-p">
 						Atlassian Enterprise offers the business critical products, premier support, and strategic services you need to get the most out of your Atlassian applications.
@@ -293,7 +315,7 @@
 				</div>
 				<div class="body-ten-card-right">
 					<h4 class="body-ten-heading">
-						Atlassian Marketplace <span class="i-icon"></span>
+						Atlassian Marketplace <i class="fas fa-arrow-right"></i>
 					</h4>
 					<p class="body-ten-p">
 						The Atlassian Marketplace has thousands of apps that help your team customize and extend your Atlassian products.

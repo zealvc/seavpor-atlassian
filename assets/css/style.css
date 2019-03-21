@@ -1,40 +1,411 @@
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: Charlie Text,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
+    font-style: normal;
+}
+
+a {
+	text-decoration: none;
+	color: #0052CC;;
+}
+
+/* Main CSS For Mobile*/
+
+
+/* Header Style */
+.header {
+	display: block;
+	height: 531px;
+	width: 100%;
+}
+
+/* Navigation Bar Style */
+.nav-bar {
+    position: relative;
+    display: block;
+    height: 72px;
+}
+
+.nav-logo {
+    width: 195px;
+    line-height: 72px;
+}
+
+.nav-logo > img {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    vertical-align: text-bottom;
+}
+.nav-bar-left, .nav-bar-right {
+	display: none;
+}
+
+/* Page Heading/Hero Session Style */
+.page-heading {
+    background-image: url("https://wac-cdn.atlassian.com/dam/jcr:b98acc66-09c9-482d-b442-fbb2ccbff414/AC+Atlassian-HP-hero.svg?cdnVersion=le");
+    background-size: cover;
+    width: 100%;
+    padding: 145px 0;
+}
+
+.heading-contents {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.heading-contents h1 {
+    font-size: 32px;
+    line-height: 1.25;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+.heading-contents h1, .heading-contents p, .heading-btn {
+    color: #fff;
+    letter-spacing: 0;
+    margin-top: 0;
+}
+
+.heading-contents p {
+    font-size: 20px;
+    letter-spacing: .3px;
+    line-height: 1.4;
+    margin-bottom: 24px;
+}
+.heading {
+	padding-left: 20px;
+}
+.heading-btn {
+    color: #fff;
+    border: 1px solid #00C7E5;
+    font-weight: 900;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 5px 16px;
+    text-decoration: none;
+}
+
+a:hover.heading-btn {
+    background: #5E6C84;
+    border-color: #fff;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.page-heading {
+	display: block;
+	height: 475px;
+	/*background-image: url("assets/img/Summit2019-WACTakeover-MobileHero-xs.png") ; */
+	position: relative;
+}
+
+.page-heading img {
+	width:100%;
+	height:auto;
+	background-color:#1E133C;
+}
+
+.heading-contents{
+	position: absolute;
+}
+
+.heading-contents h1 {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
 	margin: 0;
 	padding: 0;
 }
 
-@media (min-width: 0px) and (max-width: 539px) { 
+.heading-contents p {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+h1.heading {
+	text-align: center;
+	font-size: 2rem;
+}
+.center {
+	text-align: center;
+}
+/*Body One*/
+.body-one-left img {
+	width: 300px;
+	height: 300px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.body-one-left {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.body-one {
+	height: 584px;
+	width: 100%;
+	background-color: #F4F5F7;
+}
+
+.body-one-right-heading {
+	font-size: 1.1rem;
+    margin: 15px 15px;
+}
+
+.body-one-right-p {
+	font-size: 1.1rem;
+    margin: 10px 15px;
+}
+
+.body-one-btn {
+	color: #0052CC;
+    border: 2px solid #0052CC;
+    font-weight: 900;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 5px 16px;
+    text-decoration: none;
+    margin: 15px 15px;
+}
+
+/*Body Two*/
+
+.body-two{
+	height: 228px;
+	width: 100%;
+	display: block;
+}
+
+.body-two-heading {
+	padding: 16px;
+	padding-top: 64px;
+	font-size: 1.3rem;
+}
+.body-two-p {
+	font-size: 1.25rem;
+    letter-spacing: .3px;
+    line-height: 1.4;
+    padding: 10px;
+    color: #111
+}
+
+.line-break {
+	height: 68px;
+}
+.line-breaks {
+	margin: 0 116px;
+	margin-top: 34px;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 2px;
+    border-color: #0052CC;
+    
+}
+
+
+/*body-three*/
+.body-three {
+	padding: 16px;
+}
+
+.body-three-heading {
+	margin-bottom: 23px;
+}
+
+.body-three-component {
+	padding-bottom: 41px;
+	margin-bottom: 17px;
+}
+
+.body-three-component img {
+	margin-bottom: 16px;
+}
+
+.body-three-component p{
+	margin-bottom: 24px;
+}
+
+
+/*Body Four*/
+.body-four{
+	margin: 16px;
+}
+
+.and-more-btn {
+	font-size: 20px;
+	color: #555;
+}
+
+.body-four-p {
+	margin-top: 14px;
+}
+
+
+/*Body Five*/
+.body-five {
+	padding: 32px 16px;
+	background-color: #F4F5F7;
+}
+
+.body-five-heading {
+	margin-bottom: 14px;
+	font-size: 21px;
+	color: #555;
+}
+
+.body-five-p {
+	margin-bottom: 24px;
+}
+
+.body-five a {
+	color: #000;
+	background-color: #79F2C0;
+    border: 2px;
+    font-weight: 900;
+    display: block;
+    border-radius: 3px;
+    padding: 10px 16px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+
+
+/*Body Six*/
+.body-six {
+	padding-top: 32px;
+	padding-bottom: 16px;
+}
+
+.body-six-left img {
+	padding: 16px;
+	width: 190px;
+	height: 168px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.body-six-right {
+	padding: 16px;
+}
+
+.body-six-heading {
+	margin-bottom: 14px;
+}
+
+.body-six-p {
+	margin-bottom: 24px;
+}
+
+.line-break-two {
+	height: 68px;
+}
+.line-breaks-two {
+	margin: 0 20px;
+	margin-top: 34px;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    border-color: #CCC	;
+    
+}
+
+/*Body Seven*/
+.body-seven {
+	padding: 16px 0px;
+}
+
+.body-seven-heading {
+	padding: 16px;
+	font-size: 21px;
+}
+.image-component {
+	padding: 16px;
+}
+.image-seven{
+	width: 343px;
+	height: 120px;
+}
+
+/*Body Eight*/
+.body-eight {
+	padding: 16px 0px;
+}
+
+.body-eight-component {
+	padding: 16px;
+}
+
+.body-eight-img1 {
+	width: 343px;
+	height: 230px;
+	margin-bottom: 16px;
+}
+
+.body-eight-img2 {
+	width: 192px;
+	height: 31px;
+	margin-top: 18px;
+	margin-bottom: 26px;
+}
+
+.body-eight-p {
+	margin-bottom: 24px;
+}
+
+.body-eight-component-bottom {
+	padding: 40px;
+	padding-top: 0px;
+}
+
+
+/*Body Nine*/
+.body-nine {
+	padding-top:8px;
+	padding-bottom: 64px;
+}
+
+
+
+/* Tablet Style */
+@media (min-width: 540px) and (max-width: 767px) { 
  	.header-image { 
- 		background-image: url("https://wac-cdn.atlassian.com/dam/jcr:4ad14d09-926b-431d-92c4-339a548b53b3/Summit2019-WACTakeover-MobileHero.png?cdnVersion=ld") ; 
- 		background-position: bottom left ; 
- 		background-repeat: no-repeat ; 
- 		background-size: 100% 75% ; 
- 	} 
- } 
- @media (min-width: 540px) and (max-width: 767px) { 
- 	.header-image 
- 	{ background-image: url("https://wac-cdn.atlassian.com/dam/jcr:4ad14d09-926b-431d-92c4-339a548b53b3/Summit2019-WACTakeover-MobileHero.png?cdnVersion=ld") ; 
- 	background-position: bottom left ; 
- 	background-repeat: no-repeat ; 
- 	background-size: 100% 75% ; 
+ 		background-image: url("assets/img/Summit2019-WACTakeover-MobileHero-xs.png") ; 
  	} 
 } 
- @media (min-width: 768px) and (max-width: 1023px) { 
+
+
+/* iPad Style */
+@media (min-width: 768px) and (max-width: 1023px) { 
  	.header-image { 
- 		background-image: url("https://wac-cdn.atlassian.com/dam/jcr:4f6bda21-a0c7-49ae-abbe-464dbe2432c1/Summit2019-WACTakeover.svg?cdnVersion=ld") ; 
- 		background-position: bottom center ; 
- 		background-repeat: no-repeat ; 
- 		background-size: cover ; 
+ 		background-image: url("assets/img/Summit2019-WACTakeover-m.svg") ; 
  		}
  	} 
- @media (min-width: 1024px) and (max-width: 1439px) {
+
+/* Small Laptop Style */
+@media (min-width: 1024px) and (max-width: 1439px) {
  	.header-image{ 
- 		background-image: url("https://wac-cdn.atlassian.com/dam/jcr:4f6bda21-a0c7-49ae-abbe-464dbe2432c1/Summit2019-WACTakeover.svg?cdnVersion=ld") ; 
- 		background-position: bottom center ; 
- 		background-repeat: no-repeat ; 
- 		background-size: cover ; } } 
- @media (min-width: 1440px) { 
+ 		background-image: url("assets/img/Summit2019-WACTakeover-m.svg") ; 
+ 	} 
+} 
+
+
+/* Desktop Style */
+@media (min-width: 1440px) { 
  		.header-image { 
  			background-image: url("https://wac-cdn.atlassian.com/dam/jcr:4f6bda21-a0c7-49ae-abbe-464dbe2432c1/Summit2019-WACTakeover.svg?cdnVersion=ld") ; 
  		background-position: bottom center ; 
- 		background-repeat: no-repeat ; background-size: cover ; } } 
+ 		background-repeat: no-repeat ; background-size: cover ; } 
+} 
+
